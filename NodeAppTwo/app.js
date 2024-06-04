@@ -7,7 +7,7 @@ const app = express();
 const port = 8000;
 
 // System information route
-app.get('/NodeAppOne', async (req, res) => {
+app.get('/NodeAppTwo', async (req, res) => {
     try {
         const message = '<h1>Node.js Express Test Application</h1>';
         const versionInfo = `<p>Node.js Version: ${process.version}</p>`;
